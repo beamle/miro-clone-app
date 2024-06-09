@@ -9,7 +9,7 @@ import {
 } from "convex/react";
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import React from "react";
-import { Loading } from "@/components/auth/loading.";
+import { Loading } from "@/components/auth/loading";
 
 interface ConvexClientProviderProps {
   children: React.ReactNode;
